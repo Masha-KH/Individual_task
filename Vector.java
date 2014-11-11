@@ -122,7 +122,7 @@ public class Vector {
 
 		
 		double timeSpent = System.currentTimeMillis() - startTime;
-		System.out.println("программа выполнялась " + timeSpent/1000 + " секунд");
+		System.out.println("ГЇГ°Г®ГЈГ°Г Г¬Г¬Г  ГўГ»ГЇГ®Г«Г­ГїГ«Г Г±Гј " + timeSpent/1000 + " Г±ГҐГЄГіГ­Г¤");
 	}
 
 }
@@ -166,4 +166,4 @@ class Queue extends Vector {
 	public void clear() {
 		super.clear();
 	}
-}-
+}
