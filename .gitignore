@@ -10,3 +10,43 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+mkdir TEST
+cd TEST
+mkdir src
+
+public class TestGitHub {
+    public static void main(String [] args) {
+        System.out.println("Test hibHub");
+    }
+}
+git init
+git pull https://github.com/Masha-KH/TEST
+remote: Counting objects: 5, done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 5 (delta 0), reused 0 (delta 0)
+Unpacking objects: 100% (5/5), done.
+From https://github.com/dev-blogs/TEST
+ * branch            HEAD       -> FETCH_HEAD
+ git add *
+ git commit -m "create project"
+[master 412c945] create project
+ Committer: zheka 
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Masha-KH"
+    git config --global user.email mashustic.2012@mail.ru
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 5 insertions(+)
+ create mode 100644 src/TestGitHub.java
+ git remote add your_project https://github.com/Masha-KH/TEST
+git push TEST
+Username for 'https://github.com': dev-blogs
+Password for 'https://dev-blogs@github.com': 
+To https://github.com/dev-blogs/your_project
+   eeb0736..412c945  master -> master
